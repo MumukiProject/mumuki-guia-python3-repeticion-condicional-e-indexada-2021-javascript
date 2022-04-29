@@ -5,7 +5,7 @@ Pero quizás ya hayas notado que hay dos operaciones en particular que son basta
 ```javascript
 ム "no tenemos pertenencias sino equipaje".length;
 37
-ム "un alma sola dividida en dos".includes(2);
+ム "un alma sola dividida en dos".includes("dos");
 true
 ム [4, 8, 15, 16, 23, 42].length
 6
