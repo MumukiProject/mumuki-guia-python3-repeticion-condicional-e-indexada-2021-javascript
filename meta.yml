@@ -1,0 +1,22 @@
+---
+name: Secuencias y Repetición
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: python3
+id_format: "%05d"
+order:
+- 1
+- 2
+- 14
+- 5
+- 3
+- 4
+- 6
+- 9
+- 7
+- 15
+- 16
+- 12
+private: false

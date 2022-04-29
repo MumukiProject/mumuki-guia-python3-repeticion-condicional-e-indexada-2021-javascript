@@ -1,0 +1,34 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+teacher_info: ''
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` es una función, porque devuelve algo"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` es un procedimiento, porque no devuelve nada"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` visita cada elemento de `elementos`, e incrementa
+    `cantidad` en `1` por cada uno"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` inicializa una variable local `cantidad` en `0`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` inicializa una variable global `cantidad` en `0`"
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` hace lo mismo que la función `len`"
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: "`operacion_misteriosa` no usa la variable `elemento`"
+  checked: true
+name: Contalo vos
