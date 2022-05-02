@@ -10,25 +10,25 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` es una función, porque devuelve algo"
+  value: "`operacionMisteriosa` es una función, porque devuelve algo"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` es un procedimiento, porque no devuelve nada"
+  value: "`operacionMisteriosa` es un procedimiento, porque no devuelve nada"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` visita cada elemento de `elementos`, e incrementa
+  value: "`operacionMisteriosa` visita cada elemento de `elementos`, e incrementa
     `cantidad` en `1` por cada uno"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` inicializa una variable local `cantidad` en `0`"
+  value: "`operacionMisteriosa` inicializa una variable local `cantidad` en `0`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` inicializa una variable global `cantidad` en `0`"
+  value: "`operacionMisteriosa` inicializa una variable global `cantidad` en `0`"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` hace lo mismo que la función `len`"
+  value: "`operacionMisteriosa` hace lo mismo que la función `len`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacion_misteriosa` no usa la variable `elemento`"
+  value: "`operacionMisteriosa` no usa la variable `elemento`"
   checked: true
 name: Contalo vos
