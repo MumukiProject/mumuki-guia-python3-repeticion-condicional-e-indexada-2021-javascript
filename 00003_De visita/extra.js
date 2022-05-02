@@ -1,7 +1,5 @@
-def imprimir_cada_elemento(elementos): 
-  for elemento in elementos: 
-    print(elemento)
-    
-
-def listo():
-  pass
+function imprimirCadaElemento(elementos){
+  for(let elemento of elementos){ 
+    console.log(elemento);
+  }
+}
