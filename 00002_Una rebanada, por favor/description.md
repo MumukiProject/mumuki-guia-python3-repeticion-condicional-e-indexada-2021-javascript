@@ -5,8 +5,8 @@ Otras operaciones que listas y strings tienen en común son los _slices_, que po
 ム numeros.slice(0,2)
 [10, 20]         // es la lista conformada por el 1er y 2do elemento;
                  // ⚠️ recordemos que los índices en javascript cuentan desde 0
-ム numeros[2:4]
-[30, 40]         # es la lista conformada por el 3er y 4to elemento
+ム numeros.slice(2,4)
+[30, 40]         // es la lista conformada por el 3er y 4to elemento
 ム numeros[0:4]
 [10, 20, 30, 40] # es la lista conformada 
                  # por los elementos 1 al 4
