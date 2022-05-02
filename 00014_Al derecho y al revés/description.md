@@ -1,4 +1,4 @@
-¡Los segmentos `[:]` y el operador de indexación `[]` no serían tan útiles si no pudieramos contar también de atrás para adelante! :arrow_left: Por eso es que Python nos permite utilizar:
+¡Los segmentos `(,)` y el operador de indexación `[]` no serían tan útiles si no pudieramos contar también de atrás para adelante! :arrow_left: Por eso es que JavaScript nos permite utilizar:
 
  * índices positivos: empiezan en `0` y cuentan los elementos desde la primera posición hasta la última;
  * índices negativos: empiezan en `-1` y cuentan los elementos desde la última posición hasta la primera.
@@ -54,8 +54,8 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 
 ... y hacer operaciones como las siguientes: 
 
-```python
-ム "hola mundo"[:4] # los primeros 4 caracteres, como ya conocemos
+```javascript
+ム "hola mundo"[:4] // los primeros 4 caracteres, como ya conocemos
 "hola" 
 ム "hola mundo"[:-1] # todos los caracteres salvo el último
 "hola mund" 
