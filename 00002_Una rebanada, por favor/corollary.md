@@ -1,7 +1,7 @@
 ¡Bien! Probablemente te haya resultado bastante tedioso resolver la tercera tarea:
 
-```python
-primera_estrofa[len(primera_estrofa) - 25:]
+```JavaScript
+primeraEstrofa[(primeraEstrofa).length - 25:]
 
 ```
 
