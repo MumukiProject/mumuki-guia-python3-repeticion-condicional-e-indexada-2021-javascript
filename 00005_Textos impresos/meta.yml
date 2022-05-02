@@ -10,5 +10,7 @@ manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_outputs
-  output: a la voz de aura
+  output: |-
+    a la voz de aura
+    undefined
 name: Textos impresos
