@@ -1,15 +1,3 @@
-
-    
-  def test_extremos_de_la_lista_4_5_10_2_3_devuelve_la_lista_4_3(self):
-    self.assertEquals(extremos([4, 5, 10, 2, 3]), [4, 3])
-    
-  def test_extremos_de_la_lista_4_3_devuelve_la_lista_4_3(self):
-    self.assertEquals(extremos([4, 3]), [4, 3])
-    
-  def test_extremos_de_la_lista_1_2_5_devuelve_la_lista_1_5(self):
-    self.assertEquals(extremos([1, 2, 5]), [1, 5])      
-
-
 describe("", () => {
   it("sinExtremos de la lista ([4, 5, 10, 2, 3]) retorna [5, 10, 2]", () => {
     assert.deepEqual(sinExtremos([4, 5, 10, 2, 3]), [5, 10, 2]);
@@ -23,10 +11,13 @@ describe("", () => {
   it("sinExtremos de la lista ([4, 20]) retorna la lista vacía", () => {
     assert.deepEqual(sinExtremos([4, 20]), []);
   })
-  it("contiene([1, 8, 5], 7) es false", () => {
-    assert(!contiene([1, 8, 5], 7));
+  it("extremos de la lista ([4, 5, 10, 2, 3]) retorna [4, 3]", () => {
+    assert.deepEqual(extremos([4, 5, 10, 2, 3]), [4, 3]);
   })
-  it("contiene([1, 1, 1], 1) es true", () => {
-    assert(contiene([1, 1, 1], 1));
+  it("extremos de la lista ([4, 3]) retorna [4, 3]", () => {
+    assert.deepEqual(extremos([4, 3]), [4, 3]);
+  })
+  it("extremos de la lista ([1, 2, 5]) retorna [1, 5]", () => {
+    assert.deepEqual(extremos([1, 2, 5]), [1, 5]);
   })
 })
