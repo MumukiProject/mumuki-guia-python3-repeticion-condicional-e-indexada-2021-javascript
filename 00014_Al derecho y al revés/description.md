@@ -71,11 +71,11 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 
 > ¡Pongamos todo lo visto en práctica! Definí: 
 > 
->  * una función `sin_extremos` que tome una lista y devuelva otra igual pero sin su primer y último elemento;
+>  * una función `sinExtremos` que tome una lista y devuelva otra igual pero sin su primer y último elemento;
 >  * una función `extremos` que haga exactamente lo contrario, es decir, tome una lista y devuelva otra con solamente el primer y último elemento. 
 > 
-> ```python
-> ム sin_extremos([4, 5, 10, 2, 3])
+> ```javascript
+> ム sinExtremos([4, 5, 10, 2, 3])
 > [5, 10, 2]
 > ム extremos([4, 5, 10, 2, 3])
 > [4, 3]
