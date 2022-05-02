@@ -5,9 +5,9 @@ function operacionMisteriosa(elementos){
   let cantidad = 0
   
   for (let elemento of elementos){
-    cantidad += 1
+    cantidad += 1;
   }
-  return cantidad
+  return cantidad;
 }
 ```
 
