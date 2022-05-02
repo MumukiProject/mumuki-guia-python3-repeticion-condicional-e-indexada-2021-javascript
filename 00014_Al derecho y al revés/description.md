@@ -55,7 +55,7 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 ... y hacer operaciones como las siguientes: 
 
 ```javascript
-ム "hola mundo"[:4] // los primeros 4 caracteres, como ya conocemos
+ム "hola mundo".slice(0,4) // los primeros 4 caracteres, como ya conocemos
 "hola" 
 ム "hola mundo"[:-1] // todos los caracteres salvo el último
 "hola mund" 
