@@ -26,7 +26,7 @@ choices:
   value: "`operacionMisteriosa` inicializa una variable global `cantidad` en `0`"
   checked: false
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: "`operacionMisteriosa` hace lo mismo que la función `len`"
+  value: "`operacionMisteriosa` hace lo mismo que `length`"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: "`operacionMisteriosa` no usa la variable `elemento`"
