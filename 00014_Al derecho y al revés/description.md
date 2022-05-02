@@ -63,7 +63,7 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 "mundo"
 ム "hola mundo".slice(0.1) // primer carácter, como ya conocemos
 "h" 
-ム "hola mundo"-slice(-1) // último carácter
+ム "hola mundo".slice(-1) // último carácter
 "o"                 
 ム "hola mundo"[-2] # anteúltimo carácter
 "d"
