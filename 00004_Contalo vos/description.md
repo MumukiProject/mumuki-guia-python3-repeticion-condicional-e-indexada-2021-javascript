@@ -1,4 +1,4 @@
-Veamos ahora una nueva `operacion_misteriosa`:
+Veamos ahora una nueva `operacionMisteriosa`:
 
 ```python
 def operacion_misteriosa(elementos):
