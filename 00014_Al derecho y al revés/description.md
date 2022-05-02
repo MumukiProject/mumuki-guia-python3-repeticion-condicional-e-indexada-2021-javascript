@@ -59,7 +59,7 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 "hola" 
 ム "hola mundo"(0,-1) // todos los caracteres salvo el último
 "hola mund" 
-ム "hola mundo"[-5:] # los último 5 caracteres
+ム "hola mundo".slice(-5) // los último 5 caracteres
 "mundo"
 ム "hola mundo"[0] # primer carácter, como ya conocemos
 "h" 
