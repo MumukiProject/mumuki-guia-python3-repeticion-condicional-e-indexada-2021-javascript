@@ -21,9 +21,9 @@ Otras operaciones que listas y strings tienen en común son los _slices_, que po
 ```
 
 
-> ¡Usemos lo aprendido para extraer segmentos de los strings! Ya cargamos en la consola una variable de tipo string  llamada `primera_estrofa`; aplicando lo visto te toca: 
+> ¡Usemos lo aprendido para extraer segmentos de los strings! Ya cargamos en la consola una variable de tipo string  llamada `primeraEstrofa`; aplicando lo visto te toca: 
 > 
->  1. Averiguar cuantos caracteres tiene `primera_estrofa`
->  2. Obtener un string con los primeros 22 caracteres de `primera_estrofa`
->  3. Obtener un string con los últimos 25 caracteres de `primera_estrofa`
+>  1. Averiguar cuantos caracteres tiene `primeraEstrofa`
+>  2. Obtener un string con los primeros 22 caracteres de `primeraEstrofa`
+>  3. Obtener un string con los últimos 25 caracteres de `primeraEstrofa`
 > 
