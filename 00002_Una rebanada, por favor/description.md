@@ -1,10 +1,10 @@
 Otras operaciones que listas y strings tienen en común son los _slices_, que podemos traducir como segmentos, secciones, o (de forma más literal y graciosa) rebanadas  :bread:, que nos permite obtener los elementos entre dos límites: 
 
-```python
-ム numeros = [10, 20, 30, 40, 50]
-ム numeros[0:2]
-[10, 20]         # es la lista conformada por el 1er y 2do elemento;
-                 # ⚠️ recordemos que los índices en Python cuentan desde 0
+```javascript
+ム let numeros = [10, 20, 30, 40, 50]
+ム numeros.slice(0,2)
+[10, 20]         // es la lista conformada por el 1er y 2do elemento;
+                 // ⚠️ recordemos que los índices en javascript cuentan desde 0
 ム numeros[2:4]
 [30, 40]         # es la lista conformada por el 3er y 4to elemento
 ム numeros[0:4]
