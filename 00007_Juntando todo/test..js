@@ -1,11 +1,13 @@
-class Test(unittest.TestCase):
-
-  def test_juntar_super_califragilistico_espialidoso_devuelve_supercalifragilisticoespialidoso(self):
-    self.assertEqual(juntar(["super", "califragilistico", "espialidoso"]), "supercalifragilisticoespialidoso")
-    
-  def test_juntar_lista_vacia_devuelve_string_vacio(self):
-    self.assertEqual(juntar([]), "")
-    
+describe("", () => {
+  it("juntar super califragilistico espialidoso retorna supercalifragilisticoespialidoso", () => {
+    assert.deepEqual(juntar(["super", "califragilistico", "espialidoso"]), "supercalifragilisticoespialidoso");
+  })
   
-  def test_juntar_cuatri_motor_devuelve_cuatrimotor(self):
-    self.assertEqual(juntar(["cuatri", "motor"]), "cuatrimotor")
+  it("juntar lista vacía retorna un string vacio", () => {
+    assert.deepEqual(juntar([]), "");
+  })
+  
+  it("juntar cuatri motor retorna cuatrimotor", () => {
+    assert.deepEqual(juntar(["cuatri", "motor"]), "cuatrimotor");
+  })
+})
