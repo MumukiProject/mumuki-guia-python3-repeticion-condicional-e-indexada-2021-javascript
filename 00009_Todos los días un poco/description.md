@@ -13,14 +13,14 @@ Y para eso definió la siguiente función:
 
 ```javascript
 function algunaVezSuperoObjetivo(duraciones) {
-  let supero = false // en principio, no se superó la marca de 3 minutos
+  let supero = false;
   
-  for (duracion of duraciones) {
-    let supero = supero || duracion < 3 // pero si alguna de ellas es menor a 3 minutos,
-                                    // entonces sí la habrá superado
+  for (let duracion of duraciones) {
+    supero = supero || duracion < 3 
   }
   return supero;
 }
+
 ```
 
 Como vemos, acá la variable local que estamos usando de _acumulador_ es booleana, y en cada _iteración_ (es decir, cada vez que visitamos una `duracion`) actualizaremos su valor, para saber si esta `duracion` o alguna de las anteriores fue menor a 3. 
