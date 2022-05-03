@@ -31,8 +31,3 @@ function sumatoria(numeros) {
 > productoria([])
 > 1 // porque la productoria de un una lista vacía es 1
 > ```
-> 
-
-
-
-
