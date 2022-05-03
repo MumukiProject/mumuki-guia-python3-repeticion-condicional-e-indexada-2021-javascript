@@ -37,7 +37,7 @@ Fingiendo indiferencia
 > 
 > ```javascript
 > ム 5
-> ム print(5)
+> ム console.log(5)
 > ム [1, 2, 3]
 > ム console.log([1, 2, 3])
 > ム "a la voz de aura"
