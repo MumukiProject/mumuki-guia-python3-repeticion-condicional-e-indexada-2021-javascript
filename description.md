@@ -2,9 +2,10 @@ Como te contábamos cuando empezaste, programar nos da un gran poder: **nos perm
 
 ¿Y qué quiere decir eso de "repetitivas"? Pensemos, por ejemplo, ¿cómo haríamos una función que sume los primeros 5 elementos de una lista? 
 
-```python
-def sumar_los_primeros_5(una_lista):
-  return una_lista[0] + una_lista[1] + una_lista[2] + una_lista[3] + una_lista[4]
+```javascript
+function sumarLosPrimeros5(unaLista) {
+  return unaLista[0] + unaLista[1] + unaLista[2] + unaLista[3] + unaLista[4];
+}
 ```
 
 ¿Notás qué es lo que se repite? Sí, estamos haciendo 4 veces lo mismo: _acceder a un elemento por índice y luego sumarlo_. Sin dudas, sería mucho más interesante que la computadora hiciera eso por nosotros... ¡o si no te estaríamos mintiendo con lo de automatizar! :expressionless:
