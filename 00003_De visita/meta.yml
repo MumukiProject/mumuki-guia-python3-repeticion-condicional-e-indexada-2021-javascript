@@ -9,6 +9,17 @@ teacher_info: ''
 manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  kind: last_query_equals
-  value: listo()
+  kind: last_query_outputs
+  output: |-
+    a
+    d
+    i
+    v
+    i
+    n
+    a
+    d
+    o
+    r
+    undefined
 name: De visita

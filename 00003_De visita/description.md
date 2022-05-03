@@ -17,9 +17,8 @@ Esta estructura de control nos permitirá...
 > ```javascript
 > ム imprimirCadaElemento(["Violeta", "Mercedes", "Natalia", "Charo", "María Elena"])
 > ム imprimirCadaElemento([true, false, false, true])
+> ム imprimirCadaElemento([0, 3, 0, 3, 4, 5, 6])
 > ム imprimirCadaElemento("adivinador")
-> ム imprimirCadaElemento(range(1, 10))    # range en inglés significa rango
-> ム imprimirCadaElemento(range(5, 30, 2)) # prestá atención al tercer argumento de range
 > ```
 > 
 > Cuando termines, escribí `listo()`
