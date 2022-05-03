@@ -1,6 +1,6 @@
 ¡Bien! Probablemente te haya resultado bastante tedioso resolver la tercera tarea:
 
-```JavaScript
+```javascript
 primeraEstrofa.slice(primeraEstrofa.length - 25, primeraEstrofa.length)
 ```
 
