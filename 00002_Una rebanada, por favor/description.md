@@ -19,4 +19,4 @@ Otras operaciones que listas y strings tienen en común son los _slices_, que po
 >  1. Averiguar cuantos caracteres tiene `primeraEstrofa`
 >  2. Obtener un string con los primeros 22 caracteres de `primeraEstrofa`
 >  3. Obtener un string con los últimos 25 caracteres de `primeraEstrofa`
-> 
+
