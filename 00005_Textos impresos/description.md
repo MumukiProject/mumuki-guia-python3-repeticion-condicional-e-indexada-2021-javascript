@@ -21,7 +21,7 @@ Fingiendo indiferencia`
 Este `\n`, llamado _salto de línea_, **representa**  que allí, antes del siguiente carácter, debe haber un enter `↵`. Perfecto, pero ¿y si queremos "escribir" el texto en la pantalla, con verdaderos enters en lugar de estos `\n`? Démosle la bienvenida a `console.log`, que imprime los textos tal como queremos que se vean:
 
 ```javascript
-> console.log(payada_de_la_vaca)
+ム console.log(payadaDeLaVaca)
 
 Dígame usted compañero
 y conteste con prudencia
