@@ -3,8 +3,8 @@ _¡Y llegamos al plato fuerte de la lección :spaghetti:!_
 De todas las cosas interesantes que podemos hacer con las secuencias de cosas, probablemente la más poderosa sea la de _recorrer_ **cada uno** de sus elementos :person_walking:, utilizando la estructura de control `for`: 
 
 ```javascript
-function imprimirCadaElemento(elementos) {
-  for(let elemento of elementos) { 
+function imprimirCadaElemento(elementos){
+  for(let elemento of elementos){ 
     console.log(elemento);
   }
 }
