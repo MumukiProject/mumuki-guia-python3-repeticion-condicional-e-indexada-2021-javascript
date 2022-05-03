@@ -2,19 +2,19 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:todosLosDiasUnPoco
+  inspection: Declares:todos_los_dias_un_poco
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: DeclaresComputationWithArity1:todosLosDiasUnPoco
+  inspection: DeclaresComputationWithArity1:todos_los_dias_un_poco
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: todosLosDiasUnPoco
+  binding: todos_los_dias_un_poco
   inspection: Assigns
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: todosLosDiasUnPoco
+  binding: todos_los_dias_un_poco
   inspection: UsesForeach
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: todosLosDiasUnPoco
+  binding: todos_los_dias_un_poco
   inspection: Not:UsesOr
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: todosLosDiasUnPoco
+  binding: todos_los_dias_un_poco
   inspection: Not:Assigns:WithFalse

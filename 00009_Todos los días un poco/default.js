@@ -1,8 +1,7 @@
-function todosLosDiasUnPoco(duraciones){ 
+def todos_los_dias_un_poco(duraciones): 
   ???
-
-  for (let duracion of duraciones){
-      ???
-  }
-  return ???;
-}
+  
+  for duracion in duraciones:
+    ???
+  
+  return ???
