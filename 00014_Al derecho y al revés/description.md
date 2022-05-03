@@ -1,4 +1,4 @@
-¡Los segmentos `(,)` y el operador de indexación `[]` no serían tan útiles si no pudieramos contar también de atrás para adelante! :arrow_left: Por eso es que JavaScript nos permite utilizar:
+¡Los segmentos `slice` y el operador de indexación `[]` no serían tan útiles si no pudieramos contar también de atrás para adelante! :arrow_left: Por eso es que JavaScript nos permite utilizar:
 
  * índices positivos: empiezan en `0` y cuentan los elementos desde la primera posición hasta la última;
  * índices negativos: empiezan en `-1` y cuentan los elementos desde la última posición hasta la primera.
@@ -57,17 +57,25 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 ```javascript
 ム "hola mundo".slice(0,4) // los primeros 4 caracteres, como ya conocemos
 "hola" 
-ム "hola mundo"(0,-1) // todos los caracteres salvo el último
-"hola mund" 
-ム "hola mundo".slice(-5) // los último 5 caracteres
-"mundo"
 ム "hola mundo".slice(0,1) // primer carácter, como ya conocemos
 "h" 
-ム "hola mundo".slice(-1) // último carácter
-"o"                 
-ム "hola mundo"[-2] # anteúltimo carácter
+ム "hola mundo".slice(0,-1) // todos los caracteres salvo el último
+"hola mund" 
+ム "hola mundo".slice(-2, -1) // anteúltimo carácter
 "d"
 ```
+
+Es interesante destacar que podemos invocar `slice` con solo un argumento y obtener los elementos desde ese valor hasta el final. Por ejemplo:
+
+```javascript
+ム "hola mundo".slice(-5) // los caracteres desde la posición -5 hasta el final, es decir, los últimos 5 caracteres
+"mundo"
+ム "hola mundo".slice(2) // los caracteres desde la posición 2 hasta el final
+"la mundo"
+ム "hola mundo".slice(-1) // solo el último carácter
+"o"
+```
+
 
 > ¡Pongamos todo lo visto en práctica! Definí: 
 > 
