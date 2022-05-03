@@ -1,3 +1,3 @@
-Como podemos apreciar, `console.log` imprime en pantalla el valor recibido y funciona con listas, strings, y... casi cualquier tipo de dato.Por otro lado, cuando estamos en la consola los resultados son apenas diferentes cuando usamos strings. Por eso es que no fue necesario... hasta ahora.  :stuck_out_tongue:
+Como podemos apreciar, `console.log` imprime en pantalla el valor recibido y funciona con listas, strings, y... casi cualquier tipo de dato.Por otro lado, cuando estamos en la consola los resultados son apenas diferentes cuando usamos strings. :stuck_out_tongue:
 
 También habrás notado que en todos los casos luego de lo que imprimimos aparece la palabra `undefined`, vamos a ignorar eso ya que es la forma que tiene JavaScript de explicitar que `console.log` no retorna nada por ser un procedimiento. :grimacing:
