@@ -1,7 +1,8 @@
-def productoria(numeros):
-  producto = ???
+function productoria(numeros){
+  let producto = ???;
   
-  for numero in numeros: 
+  for (numero of numeros){
     ???
-    
-  return producto
+  }  
+  return producto;
+}
