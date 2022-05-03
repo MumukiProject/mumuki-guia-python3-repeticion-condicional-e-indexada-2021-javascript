@@ -4,5 +4,3 @@ que el hombre que lo desvela
 una pena estraordinaria,
 como la ave solitaria
 con el cantar se consuela`
-
-
