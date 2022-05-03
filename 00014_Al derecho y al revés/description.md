@@ -1,4 +1,4 @@
-¡Los segmentos `slice` y el operador de indexación `[]` no serían tan útiles si no pudieramos contar también de atrás para adelante! :arrow_left: Por eso es que JavaScript nos permite utilizar:
+¡Los segmentos (o `slice`s) y el operador de indexación (`[]`) no serían tan útiles si no pudieramos contar también de atrás para adelante! :arrow_left: Por eso es que JavaScript nos permite utilizar:
 
  * índices positivos: empiezan en `0` y cuentan los elementos desde la primera posición hasta la última;
  * índices negativos: empiezan en `-1` y cuentan los elementos desde la última posición hasta la primera.
@@ -75,7 +75,6 @@ Es interesante destacar que podemos invocar `slice` con solo un argumento y obte
 ム "hola mundo".slice(-1) // solo el último carácter
 "o"
 ```
-
 
 > ¡Pongamos todo lo visto en práctica! Definí: 
 > 
