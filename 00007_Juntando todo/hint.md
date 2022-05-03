@@ -1,11 +1,12 @@
 Te dejamos como inspiración la definición de `sumatoria` del ejercicio anterior: 
 
-```python
-def sumatoria(numeros):
-  suma = 0
+```javascript
+function sumatoria(numeros) {
+  let suma = 0;
   
-  for numero in numeros: 
-    suma += numero
-    
-  return suma
+  for (let numero of numeros) { 
+    suma += numero;
+  }  
+  return suma;
+}
 ```
