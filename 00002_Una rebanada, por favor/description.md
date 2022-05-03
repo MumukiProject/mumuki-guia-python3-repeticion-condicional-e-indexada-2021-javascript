@@ -9,6 +9,8 @@ Otras operaciones que listas y strings tienen en común son los _slices_, que po
 [30, 40]         // es la lista conformada por el 3er y 4to elemento
 ム numeros.slice(0,4)
 [10, 20, 30, 40] // es la lista conformada por los elementos 1 al 4
+ム numeros.slice(numeros.length - 3, numeros.length)
+[30, 40, 50] // es la lista conformada por los elementos desde el 3ro hasta el final
 ```
 
 
