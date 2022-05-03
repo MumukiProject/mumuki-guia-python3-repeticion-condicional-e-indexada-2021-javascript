@@ -14,7 +14,7 @@ Fingiendo indiferencia`
 ¿Comillas invertidas? ¿Es un error de tipeo? ¡No! En JavaScript podemos escribir textos de _varias líneas_ si los colocamos entre comillas invertidas o `backticks` :sunglasses:. Si bien esto funciona muy bien, tiene un pequeño problema: cuando queramos verlo en la consola, aparecerán unos muy peculiares `\n`: 
 
 ```javascript
-ム payada_de_la_vaca
+ム payadaDeLaVaca
 '\nDígame usted compañero\ny conteste con prudencia\nCual es la mansa paciencia\nque puebla nuestras praderas\nY en melancólica espera \ncon abnegada paciencia\nNos da alimento y abrigo\nFingiendo indiferencia\n'
 ```
 
