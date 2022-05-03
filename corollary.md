@@ -2,4 +2,4 @@ En esta guía aprendiste algo muy importante: cómo hacer que la computadora rep
 
 Este caldero de conocimientos ya tiene todos los ingredientes de la pócima de la programación... :woman_mage::man_mage:
 
-...pero no tan rápido, ¡aún falta uno! :crystal_ball: Acompañanos a la siguiente lección para revelar el misterio de _los diccionarios_.
+...pero no tan rápido, ¡aún falta uno! :crystal_ball: Acompañanos a la siguiente lección para revelar el misterio de _los registros_.
