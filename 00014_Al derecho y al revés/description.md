@@ -65,7 +65,7 @@ Por ejemplo, esto nos permitirá entender al string `"hola mundo"` de dos formas
 "d"
 ```
 
-Es interesante destacar que podemos invocar `slice` con solo un argumento y obtener los elementos desde ese valor hasta el final. Por ejemplo:
+Es interesante destacar que también podemos invocar `slice` con solo un argumento para obtener los elementos desde ese valor hasta el final. Por ejemplo:
 
 ```javascript
 ム "hola mundo".slice(-5) // los caracteres desde la posición -5 hasta el final, es decir, los últimos 5 caracteres
