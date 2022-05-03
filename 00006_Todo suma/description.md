@@ -10,24 +10,16 @@ function sumatoria(numeros) {
 }
 ```
 
-... calcula la suma de todos los elementos de una lista de números...
+... calcula la suma de todos los elementos de una lista de números
 
 ```javascript
 ム sumatoria([10, 5, 20])
 35 // porque es 10 + 5 + 20
 ム sumatoria([])
 0 // porque la sumatoria de una lista vacía es 0
-
 ```
 
-...o incluso de un rango: 
-
-```python
-ム sumatoria(range(1, 6))
-15 # porque es 1 + 2 + 3 + 4 + 5
-```
-
-> Veamos si va entendiendo: completá la definición de la función `productoria` que, al igual que `sumatoria`, toma una secuencia de números, pero en lugar de sumarlos a todos, los multiplica: 
+> Veamos si se va entendiendo: completá la definición de la función `productoria` que, al igual que `sumatoria`, toma una secuencia de números, pero en lugar de sumarlos a todos, los multiplica: 
 > 
 > ```javascript
 > productoria([10, 2, 3])
