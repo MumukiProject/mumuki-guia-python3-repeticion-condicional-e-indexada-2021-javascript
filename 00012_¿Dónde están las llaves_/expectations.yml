@@ -5,7 +5,7 @@ expectations:
   inspection: Not:Uses:index
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
-  inspection: Declares:donde_estan_las_llaves
+  inspection: Declares:dondeEstanLasLlaves
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: "*"
   inspection: Except:DoesTypeTest
