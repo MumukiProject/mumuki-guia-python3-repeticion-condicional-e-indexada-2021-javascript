@@ -1,6 +1,6 @@
 
-  def test_productoria_de_1_a_9_es_362880(self):
-    self.assertEquals(productoria(range(1, 10)), 362880)
+//  def test_productoria_de_1_a_9_es_362880(self):
+//    self.assertEquals(productoria(range(1, 10)), 362880)
 
 describe("", () => {
   it("productoria de la lista [10, 2, 3] es 60", () => {

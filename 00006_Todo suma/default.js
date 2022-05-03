@@ -1,7 +1,7 @@
 function productoria(numeros){
   let producto = ???;
   
-  for (numero of numeros){
+  for (let numero of numeros){
     ???
   }  
   return producto;
