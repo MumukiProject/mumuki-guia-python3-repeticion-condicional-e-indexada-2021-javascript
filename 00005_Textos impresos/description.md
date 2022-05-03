@@ -1,16 +1,14 @@
 :octagonal_sign: Antes de continuar vamos a hacer un alto en el camino para ver <del>una vaca :cow:</del> otra payada:
 
 ```javascript
-let payadaDeLaVaca = `
-Dígame usted compañero
+let payadaDeLaVaca = `Dígame usted compañero
 y conteste con prudencia
 Cual es la mansa paciencia
 que puebla nuestras praderas
 Y en melancólica espera 
 con abnegada paciencia
 Nos da alimento y abrigo
-Fingiendo indiferencia
-`
+Fingiendo indiferencia`
 ```
 
 ¿Comillas invertidas? ¿Es un error de tipeo? ¡No! En JavaScript podemos escribir textos de _varias líneas_ si los colocamos entre comillas invertidas o `backticks` :sunglasses:. Si bien esto funciona muy bien, tiene un pequeño problema: cuando queramos verlo en la consola, aparecerán unos muy peculiares `\n`: 
