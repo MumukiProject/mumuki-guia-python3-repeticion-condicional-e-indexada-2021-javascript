@@ -21,4 +21,4 @@ Esta estructura de control nos permitirá...
 > ム imprimirCadaElemento("adivinador")
 > ```
 > 
-> Cuando termines, escribí `listo()`
+>
