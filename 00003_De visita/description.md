@@ -17,7 +17,7 @@ Esta estructura de control nos permitirá...
 > ```javascript
 > ム imprimirCadaElemento(["Violeta", "Mercedes", "Natalia", "Charo", "María Elena"])
 > ム imprimirCadaElemento([true, false, false, true])
-> ム imprimirCadaElemento([0, 3, 0, 3, 4, 5,])
+> ム imprimirCadaElemento([0, 3, 0, 3, 4, 5, 6])
 > ム imprimirCadaElemento("adivinador")
 > ```
 > 
