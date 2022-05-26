@@ -13,12 +13,19 @@ function imprimirCadaElemento(elementos){
 Esta estructura de control nos permitirá...
 
 > ...no, mejor no te contamos qué hace exactamente `for` :smiling_imp:. Descubrilo probando el **procedimiento** `imprimirCadaElemento` en la consola: 
-> 
-> ```javascript
-> ム imprimirCadaElemento(["Violeta", "Mercedes", "Natalia", "Charo", "María Elena"])
-> ム imprimirCadaElemento([true, false, false, true])
-> ム imprimirCadaElemento([0, 3, 0, 3, 4, 5, 6])
-> ム imprimirCadaElemento("adivinador")
-> ```
-> 
 >
+> ```javascript
+ム imprimirCadaElemento(["Violeta", "Mercedes", "Natalia", "Charo", "María Elena"])
+```
+>
+> ```javascript
+ム imprimirCadaElemento([true, false, false, true])
+```
+>
+> ```javascript
+ム imprimirCadaElemento([0, 3, 0, 3, 4, 5, 6])
+```
+>
+> ```javascript
+ム imprimirCadaElemento("adivinador")
+```
