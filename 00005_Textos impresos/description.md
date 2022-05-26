@@ -36,11 +36,26 @@ Fingiendo indiferencia
 > ¿Y qué pasará si usamos console.log con string que no contienen saltos de línea? ¿Y si imprimimos otros tipos de datos? Averigualo probando lo siguiente y comparando resultados: 
 > 
 > ```javascript
-> ム 5
-> ム console.log(5)
-> ム [1, 2, 3]
-> ム console.log([1, 2, 3])
-> ム "a la voz de aura"
-> ム console.log("a la voz de aura")
-> ```
+ム 5
+```
+>
+> ```javascript
+ム console.log(5)
+```
+>
+> ```javascript
+ム [1, 2, 3]
+```
+>
+> ```javascript
+ム console.log([1, 2, 3])
+```
+>
+> ```javascript
+ム "a la voz de aura"
+```
+>
+> ```javascript
+ム console.log("a la voz de aura")
+```
 
