@@ -15,11 +15,20 @@ true
 
 ¡`length` e `includes` funcionan tanto con listas como con strings!
 
-> ¿Será casualidad? ¿Habrá más operaciones en común entre estos dos tipos de datos? Averigüemoslo probando lo siguiente:  
+> ¿Será casualidad? ¿Habrá más operaciones en común entre estos dos tipos de datos? Averigüemoslo probando lo siguiente en orden en la consola:  
 > 
 > ```javascript
-> ム "Del árbol" + " una hoja se cayó"
-> ム "Sin brújula y sin radio"[4]
-> ム [1, 4].concat([4, 5])
-> ム ["el", "carozo", "cantó"][2]
-> ```
+ム "Del árbol" + " una hoja se cayó"
+```
+>
+> ```javascript
+ム "Sin brújula y sin radio"[4]
+```
+>
+> ```javascript
+ム [1, 4].concat([4, 5])
+```
+>
+> ```javascript
+ム ["el", "carozo", "cantó"][2]
+```
